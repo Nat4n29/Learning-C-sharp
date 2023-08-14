@@ -32,7 +32,7 @@ namespace curso
 
             sobrenome = vet[0];
             idade = int.Parse(vet[1]);
-            altura = double.Parse(vet[2]);
+            altura = double.Parse(vet[2], CultureInfo.InvariantCulture);
 
             Console.WriteLine(nome);
             Console.WriteLine(quarto);
@@ -40,7 +40,7 @@ namespace curso
 
             Console.WriteLine(sobrenome);
             Console.WriteLine(idade);
-            Console.WriteLine(altura);
+            Console.WriteLine(altura.ToString("F2", CultureInfo.InvariantCulture));
 
         }
     }
