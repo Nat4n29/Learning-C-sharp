@@ -1,0 +1,15 @@
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\bin\Debug\net7.0\Lessons.exe
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\bin\Debug\net7.0\Lessons.deps.json
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\bin\Debug\net7.0\Lessons.runtimeconfig.json
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\bin\Debug\net7.0\Lessons.dll
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\bin\Debug\net7.0\Lessons.pdb
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\Lessons.GeneratedMSBuildEditorConfig.editorconfig
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\Lessons.AssemblyInfoInputs.cache
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\Lessons.AssemblyInfo.cs
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\Lessons.csproj.CoreCompileInputs.cache
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\Lessons.dll
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\refint\Lessons.dll
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\Lessons.pdb
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\Lessons.genruntimeconfig.cache
+d:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\ref\Lessons.dll
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lessons\obj\Debug\net7.0\Lessons.csproj.AssemblyReference.cache
