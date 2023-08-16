@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-class Program
+class Media2
 {
 
     static void Main(string[] args)
