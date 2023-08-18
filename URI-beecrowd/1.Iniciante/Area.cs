@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-class Program
+class Area
 {
 
     static void Main(string[] args)
@@ -19,8 +19,8 @@ class Program
         C = double.Parse(vet[2], CultureInfo.InvariantCulture);
 
         triangulo = (A * C) / 2.0;
-        
-        circulo = pi * Math.Pow(C , 2.0);
+
+        circulo = pi * Math.Pow(C, 2.0);
 
         trapezio = ((A + B) * C) / 2.0;
 
