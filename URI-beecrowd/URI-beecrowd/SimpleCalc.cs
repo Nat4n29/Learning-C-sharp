@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-class Program
+class SimpleCal
 {
 
     static void Main(string[] args)
