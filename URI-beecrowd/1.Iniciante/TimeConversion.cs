@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-class Program
+class TimeConversion
 {
 
     static void Main(string[] args)
