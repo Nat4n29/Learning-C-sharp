@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-class Program
+class IndTea
 {
 
     static void Main(string[] args)
@@ -19,7 +19,7 @@ class Program
         D = int.Parse(vet[3]);
         E = int.Parse(vet[4]);
 
-        if(A == T)
+        if (A == T)
         {
             A = 1;
         }
@@ -27,7 +27,7 @@ class Program
         {
             A = 0;
         }
-        if(B == T)
+        if (B == T)
         {
             B = 1;
         }
@@ -35,7 +35,7 @@ class Program
         {
             B = 0;
         }
-        if(C == T)
+        if (C == T)
         {
             C = 1;
         }
@@ -43,7 +43,7 @@ class Program
         {
             C = 0;
         }
-        if(D == T)
+        if (D == T)
         {
             D = 1;
         }
@@ -59,7 +59,7 @@ class Program
         {
             E = 0;
         }
-        
+
         result = A + B + C + D + E;
 
         Console.WriteLine(result);
