@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-class Program
+class NumImpar
 {
 
     static void Main(string[] args)
@@ -22,7 +22,7 @@ class Program
                 impar++;
             }
 
-        }while (impar <= X);
+        } while (impar <= X);
     }
 
 }
