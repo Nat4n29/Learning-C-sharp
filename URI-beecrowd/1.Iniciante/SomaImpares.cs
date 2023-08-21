@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-class Program
+class SomaImpares
 {
 
     static void Main(string[] args)
@@ -11,7 +11,7 @@ class Program
         x = int.Parse(Console.ReadLine());
         y = int.Parse(Console.ReadLine());
 
-        if(x < y)
+        if (x < y)
         {
             min = x;
             max = y;
@@ -24,9 +24,9 @@ class Program
 
         soma = 0;
 
-        for(int i = min+1; i < max; i++)
+        for (int i = min + 1; i < max; i++)
         {
-            if(i % 2 != 0)
+            if (i % 2 != 0)
             {
                 soma = soma + i;
             }
