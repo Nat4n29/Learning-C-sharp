@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Runtime.Serialization;
 
-class Program
+class Matriz
 {
 
     static void Main(string[] args)
@@ -28,9 +28,9 @@ class Program
             }
         }
 
-        for (int i = 0;i < M; i++)
+        for (int i = 0; i < M; i++)
         {
-            for (int j = 0;j < N; j++)
+            for (int j = 0; j < N; j++)
             {
                 Console.Write(matriz[i, j] + " ");
             }
