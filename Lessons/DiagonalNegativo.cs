@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Runtime.Serialization;
 
-class Program
+class DiagonalNegativo
 {
 
     static void Main(string[] args)
@@ -24,7 +24,7 @@ class Program
         }
 
         Console.WriteLine("DIAGONAL PRINCIPAL:");
-        for (int i = 0;i < N; i++)
+        for (int i = 0; i < N; i++)
         {
             int valor = 0;
 
