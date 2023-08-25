@@ -2,50 +2,29 @@
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Runtime.Serialization;
+using URI_beecrowd;
 
 class Program
 {
 
     static void Main(string[] args)
     {
-        int N = int.Parse(Console.ReadLine());
-        int negativos = 0;
+        double media;
 
-        int[,] matriz = new int[N, N];
+        Identification name = new Identification();
+        Identification salary = new Identification();
 
-        for (int i = 0; i < N; i++)
-        {
-            string[] s = (Console.ReadLine().Split(' '));
+        Console.WriteLine("Dados da primeira pessoa:");
+        name.name1 = Console.ReadLine();
+        salary.salary1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            for (int j = 0; j < N; j++)
-            {
-                matriz[i, j] = int.Parse(s[j]);
-            }
-        }
+        Console.WriteLine("Dados da segunda pessoa:");
+        name.name2 = Console.ReadLine();
+        salary.salary2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-        Console.WriteLine("DIAGONAL PRINCIPAL:");
-        for (int i = 0;i < N; i++)
-        {
-            int valor = 0;
+        media = (salary.salary1 + salary.salary2) / 2;
 
-            valor = matriz[i, i];
-
-            Console.Write(valor + " ");
-        }
-        Console.WriteLine();
-
-        for (int i = 0; i < N; i++)
-        {
-            for (int j = 0; j < N; j++)
-            {
-                if (matriz[i, j] < 0)
-                {
-                    negativos++;
-                }
-            }
-        }
-        Console.WriteLine("QUANTIDADE DE NEGATIVOS = " + negativos);
-
+        Console.WriteLine("Salário médio = " + media.ToString("F2", CultureInfo.InvariantCulture));
     }
 
 }

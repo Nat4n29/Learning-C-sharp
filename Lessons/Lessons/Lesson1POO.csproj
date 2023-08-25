@@ -11,8 +11,4 @@
     <None Remove="Lesson2.cs~RF1342b692.TMP" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Include="D:\My Csharp projects\Learning-C-sharp\Lesson2.cs" Link="Lesson2.cs" />
-  </ItemGroup>
-
 </Project>
