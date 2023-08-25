@@ -1,0 +1,15 @@
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\bin\Debug\net6.0\Lesson2POO.exe
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\bin\Debug\net6.0\Lesson2POO.deps.json
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\bin\Debug\net6.0\Lesson2POO.runtimeconfig.json
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\bin\Debug\net6.0\Lesson2POO.dll
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\bin\Debug\net6.0\Lesson2POO.pdb
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\Lesson2POO.csproj.AssemblyReference.cache
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\Lesson2POO.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\Lesson2POO.AssemblyInfoInputs.cache
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\Lesson2POO.AssemblyInfo.cs
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\Lesson2POO.csproj.CoreCompileInputs.cache
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\Lesson2POO.dll
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\refint\Lesson2POO.dll
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\Lesson2POO.pdb
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\Lesson2POO.genruntimeconfig.cache
+D:\My Csharp projects\Learning-C-sharp\Lessons\Lesson2POO\Lesson2POO\obj\Debug\net6.0\ref\Lesson2POO.dll
