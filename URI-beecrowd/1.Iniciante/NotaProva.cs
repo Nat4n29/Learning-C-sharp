@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 
-class Program
+class NotaProva
 {
 
     static void Main(string[] args)
