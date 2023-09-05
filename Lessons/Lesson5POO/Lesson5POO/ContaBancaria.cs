@@ -9,41 +9,43 @@ namespace Lesson5POO
 {
     internal class ContaBancaria
     {
-        public int ContaNum { get; private set; }
-        public string Nome { get; private set; }
-        public double Valor { get; private set; }
-        public string Dados { get; private set; }
-
-        
+        public int Numero { get; private set; }
+        public string Titular  { get; private set; }
+        public double Saldo { get; private set; }
 
         public ContaBancaria(int conta, string nome, double valor)
         {
-            ContaNum = conta;
-            Nome = nome;
-            Valor = valor;
-            Dados = "Conta " + ContaNum + ", Titular: " + Nome + ", Saldo: $ " + Valor.ToString("F2", CultureInfo.InvariantCulture);
+            Numero = conta;
+            Titular = nome;
+            Saldo = valor;
         }
+
+        public ContaBancaria(){}
 
         public double DepInic(double valor)
         {
-            return Valor += valor;
+            return Deposito(valor);
         }
 
-        public double Deposito(double depoValor)
+        public double Deposito(double quantia)
         {
-            return Valor += depoValor;
+            return Saldo += quantia;
         }
 
-        public double Saque(double saqValor)
+        public double Saque(double quantia)
         {
-            Valor -= saqValor;
+            Saldo -= quantia;
 
-            return Valor -= 5.0;
+            return Saldo -= 5.0;
         }
 
         public override string ToString()
         {
-            return base.ToString();
+            return "Conta " 
+                + Numero 
+                + ", Titular: " 
+                + Titular + ", Saldo: $ " 
+                + Saldo.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
