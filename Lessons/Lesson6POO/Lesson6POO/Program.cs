@@ -24,7 +24,7 @@ namespace Lesson6POO
                 string email = Console.ReadLine();
                 Console.Write("Quarto: ");
                 quarto = int.Parse(Console.ReadLine());
-                alu[quarto] = new Aluguel { Nome = nome, Email = email };
+                alu[quarto] = new Aluguel(nome, email);
                 Console.WriteLine();
             }
 
@@ -34,7 +34,7 @@ namespace Lesson6POO
             {
                 if (alu[i] != null)
                 {
-                    Console.WriteLine(i + ": " + alu[i].Nome +", " + alu[i].Email); 
+                    Console.WriteLine(i + ": " + alu[i]); 
                 }
             }
         }
