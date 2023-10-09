@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "f8m5oF9353DtImGuH5rzK1tP2HAmom1kDuYvEDYEcsVPrzSrtQvB5exRJA+3ePomunRLp9aEWuFMk0Ukg6rg7A==",
+  "success": true,
+  "projectFilePath": "D:\\My Csharp projects\\Learning-C-sharp\\Lessons\\Lesson16POO\\Lesson16POO\\Lesson16POO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Natan o Cara\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Natan o Cara\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Natan o Cara\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Natan o Cara\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
