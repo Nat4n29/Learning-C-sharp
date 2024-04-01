@@ -59,9 +59,6 @@
             this.Delete = new System.Windows.Forms.Button();
             this.New = new System.Windows.Forms.Button();
             this.Find = new System.Windows.Forms.TabPage();
-            this.bookDatabaseDataSet = new BookingApp.BookDatabaseDataSet();
-            this.paxBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.paxTableAdapter = new BookingApp.BookDatabaseDataSetTableAdapters.PaxTableAdapter();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.fileDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,13 +66,25 @@
             this.startDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.finishDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.numPaxDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.paxBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bookDatabaseDataSet = new BookingApp.BookDatabaseDataSet();
+            this.paxTableAdapter = new BookingApp.BookDatabaseDataSetTableAdapters.PaxTableAdapter();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.fileDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clientDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.startDateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.finishDateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numPaxDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.File.SuspendLayout();
+            this.Service.SuspendLayout();
             this.Client.SuspendLayout();
             this.Find.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bookDatabaseDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.paxBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.paxBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookDatabaseDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -125,6 +134,7 @@
             // 
             // Service
             // 
+            this.Service.Controls.Add(this.dataGridView2);
             this.Service.Location = new System.Drawing.Point(7, 276);
             this.Service.Name = "Service";
             this.Service.Size = new System.Drawing.Size(837, 172);
@@ -374,20 +384,6 @@
             this.Find.Text = "Find";
             this.Find.UseVisualStyleBackColor = true;
             // 
-            // bookDatabaseDataSet
-            // 
-            this.bookDatabaseDataSet.DataSetName = "BookDatabaseDataSet";
-            this.bookDatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // paxBindingSource
-            // 
-            this.paxBindingSource.DataMember = "Pax";
-            this.paxBindingSource.DataSource = this.bookDatabaseDataSet;
-            // 
-            // paxTableAdapter
-            // 
-            this.paxTableAdapter.ClearBeforeFill = true;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
@@ -441,6 +437,82 @@
             this.numPaxDataGridViewTextBoxColumn.HeaderText = "Num Pax";
             this.numPaxDataGridViewTextBoxColumn.Name = "numPaxDataGridViewTextBoxColumn";
             // 
+            // paxBindingSource
+            // 
+            this.paxBindingSource.DataMember = "Pax";
+            this.paxBindingSource.DataSource = this.bookDatabaseDataSet;
+            // 
+            // bookDatabaseDataSet
+            // 
+            this.bookDatabaseDataSet.DataSetName = "BookDatabaseDataSet";
+            this.bookDatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // paxTableAdapter
+            // 
+            this.paxTableAdapter.ClearBeforeFill = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.fileDataGridViewTextBoxColumn1,
+            this.nameDataGridViewTextBoxColumn1,
+            this.clientDataGridViewTextBoxColumn1,
+            this.startDateDataGridViewTextBoxColumn1,
+            this.finishDateDataGridViewTextBoxColumn1,
+            this.numPaxDataGridViewTextBoxColumn1});
+            this.dataGridView2.DataSource = this.paxBindingSource;
+            this.dataGridView2.Location = new System.Drawing.Point(9, 16);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.Size = new System.Drawing.Size(822, 150);
+            this.dataGridView2.TabIndex = 0;
+            // 
+            // fileDataGridViewTextBoxColumn1
+            // 
+            this.fileDataGridViewTextBoxColumn1.DataPropertyName = "File";
+            this.fileDataGridViewTextBoxColumn1.HeaderText = "File";
+            this.fileDataGridViewTextBoxColumn1.Name = "fileDataGridViewTextBoxColumn1";
+            this.fileDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // nameDataGridViewTextBoxColumn1
+            // 
+            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn1.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
+            this.nameDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // clientDataGridViewTextBoxColumn1
+            // 
+            this.clientDataGridViewTextBoxColumn1.DataPropertyName = "Client";
+            this.clientDataGridViewTextBoxColumn1.HeaderText = "Client";
+            this.clientDataGridViewTextBoxColumn1.Name = "clientDataGridViewTextBoxColumn1";
+            this.clientDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // startDateDataGridViewTextBoxColumn1
+            // 
+            this.startDateDataGridViewTextBoxColumn1.DataPropertyName = "Start Date";
+            this.startDateDataGridViewTextBoxColumn1.HeaderText = "Start Date";
+            this.startDateDataGridViewTextBoxColumn1.Name = "startDateDataGridViewTextBoxColumn1";
+            this.startDateDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // finishDateDataGridViewTextBoxColumn1
+            // 
+            this.finishDateDataGridViewTextBoxColumn1.DataPropertyName = "Finish Date";
+            this.finishDateDataGridViewTextBoxColumn1.HeaderText = "Finish Date";
+            this.finishDateDataGridViewTextBoxColumn1.Name = "finishDateDataGridViewTextBoxColumn1";
+            this.finishDateDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // numPaxDataGridViewTextBoxColumn1
+            // 
+            this.numPaxDataGridViewTextBoxColumn1.DataPropertyName = "Num Pax";
+            this.numPaxDataGridViewTextBoxColumn1.HeaderText = "Num Pax";
+            this.numPaxDataGridViewTextBoxColumn1.Name = "numPaxDataGridViewTextBoxColumn1";
+            this.numPaxDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -453,12 +525,14 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.File.ResumeLayout(false);
+            this.Service.ResumeLayout(false);
             this.Client.ResumeLayout(false);
             this.Client.PerformLayout();
             this.Find.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bookDatabaseDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.paxBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.paxBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookDatabaseDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -506,6 +580,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn startDateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn finishDateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn numPaxDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fileDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clientDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn startDateDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn finishDateDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numPaxDataGridViewTextBoxColumn1;
     }
 }
 
